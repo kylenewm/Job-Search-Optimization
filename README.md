@@ -6,4 +6,4 @@ Steps:
 2. Download files into a spreadsheet and remove large gaps in data (ex. No data between row 27 and row 93)
 3. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Datbricks using the UI 
   a. When uploading files make sure to check the boxes enabling multi-line and first row headers
-4. Run commands in SQL file in Databricks
+4. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
