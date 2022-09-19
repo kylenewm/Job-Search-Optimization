@@ -106,6 +106,4 @@ Alter Table jobs1015
 DROP COLUMN temp_index
 -- column is no longer needed after deleting duplicates (all values in temp_index will be 1)
 
--- COMMAND ----------
-
 -- Cleaning and parsing will be much more practical in python so we will upload the table into a pandas dataframe in another notebook 
