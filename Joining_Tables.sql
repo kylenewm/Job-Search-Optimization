@@ -64,7 +64,7 @@ WHERE company IS NULL;
 SELECT salary, count(salary) Over(Order by salary) Salary_Count
 FROM jobs1015
 WHere salary IS NOT NULL 
-/* salary is not important for purposes of project and only takes place in less than a third of the columns so we will drop the column
+-- salary is not important for purposes of project and only takes place in less than a third of the columns so we will drop the column
 
 -- COMMAND ----------
 
