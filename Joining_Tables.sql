@@ -76,7 +76,7 @@ ALTER TABLE jobs1015 SET TBLPROPERTIES (
    'delta.columnMapping.mode' = 'name',
    'delta.minReaderVersion' = '2',
    'delta.minWriterVersion' = '5')
-/* needed to allow mapping of table by name and upgrade read and write versions to allow for column to be dropped
+-- needed to allow mapping of table by name and upgrade read and write versions to allow for column to be dropped
 
 -- COMMAND ----------
 
