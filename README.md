@@ -7,6 +7,7 @@
 4. preproccess.py (in progress)
 5. clustering.py (in progress)
 6. supervised.py (in progress)
+7. main.py (in progress)
 8. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
 
 ## Goal:
