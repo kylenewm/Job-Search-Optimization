@@ -1,8 +1,20 @@
 # Job-Search-Optimization
+Files:
+
+1. Project RoadMap  
+2. Notebook with Zero-shot sequence classifier in Pytroch
+3. Notebook with modeling (in progress)
+4. preproccess.py (in progress)
+5. clustering.py (in progress)
+6. supervised.py (in progress)
+8. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
+
 ## Goal:
 
 I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool. 
+## Important Note:
 
+I only had a 14 day subscription to databricks and placed out of the AWS free tier within a week. As a result, I had to redefine the scope of the project that was shown on the project road map. 
 ## Steps:
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
     1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
