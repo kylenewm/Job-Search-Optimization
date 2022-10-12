@@ -1,7 +1,7 @@
 # Job-Search-Optimization
 Files:
 
-1. [Project RoadMap[(https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
+1. [Project RoadMap](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
 2. Notebook with Zero-shot sequence classifier in Pytroch
 3. Notebook with modeling (in progress)
 4. preproccess.py (in progress)
