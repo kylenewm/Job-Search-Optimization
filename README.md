@@ -3,7 +3,7 @@
 
 1. [Project RoadMap](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
 2. [Notebook](https://github.com/kylenewm/Job-Search-Optimization/blob/main/JobSearchOptimizerEDA.ipynb) with all EDA and basic modeling
-3. [Visuals](visuals.ipynb) that did not load on GitHub
+3. [Visuals](Visuals.ipynb) that did not load on GitHub
 3. preproccess.py (in progress)
 4. clustering.py (in progress)
 5. supervised.py (in progress)
