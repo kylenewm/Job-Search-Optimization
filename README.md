@@ -2,13 +2,12 @@
 ## Files:
 
 1. [Project RoadMap](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
-2. Notebook with Zero-shot sequence classifier in Pytorch (in progress)
-3. Notebook with all EDA and modeling (in progress)
-4. preproccess.py (in progress)
-5. clustering.py (in progress)
-6. supervised.py (in progress)
-7. main.py (in progress)
-8. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
+2. Notebook with all EDA and basic modeling 
+3. preproccess.py (in progress)
+4. clustering.py (in progress)
+5. supervised.py (in progress)
+6. main.py (in progress)
+7. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
 
 ## Goal:
 
