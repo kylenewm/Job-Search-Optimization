@@ -46,8 +46,8 @@ I decided to find "similiar" job postings to the ones I had interest in instead.
     1. When uploading files make sure to check the boxes enabling multi-line and first row headers
 
 4. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
-5. Download into notebook and perform EDA, clustering, and then construct a supervised learning model with similar metrics to allow for interpretability and feature extraction
-6. Create a reproducible workflow with seperate .py files within a virtual environment 
+5. Download into notebook and perform EDA, clustering.
+6. Next steps: Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 
 Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
 
