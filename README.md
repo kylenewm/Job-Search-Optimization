@@ -12,7 +12,6 @@
 I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool
 # Important Note:
 
-I only had a 14 day subscription to databricks and placed out of the AWS free tier within a week. As a result, I had to redefine the scope of the project that was shown on the project road map. 
 
 ## Redfining Scope:
 The original goal was to create production ready code from webscraping Data to having a web app that user could find a list of relevant roles based on their interests. The scope of the project was redefined due to the following limitations.
@@ -32,6 +31,13 @@ Formulating a supervised learning approach. I had attempted to create an ontolog
     Solution: 
     
 I decided to find "similiar" job postings to the ones I had interest in instead. 
+
+    3. Limitation
+    
+    I only had a 14 day subscription to databricks and placed out of the AWS free tier within a week.
+    
+    Solution:
+    Keeping data engineering and ML engineering aspects of the project to a minimum. 
 ## Steps:
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
     1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
