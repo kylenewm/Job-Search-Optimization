@@ -51,6 +51,6 @@ Mehta, V., Bawa, S. & Singh, J. WEClustering: word embeddings based text cluster
 
 Hynek Hruska (2022). Apify: Indeed Scraper [Software]. Available from https://apify.com/hynekhruska/indeed-scraper#indeed-scraper
 
-Credits: 
+## Credits: 
 
 I would like to personally thank Pranjal Pathak for his help with multiple aspects of this project such as the data preprocessing and redefining the scope. 
