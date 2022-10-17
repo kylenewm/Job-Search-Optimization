@@ -50,3 +50,7 @@ If you are interested to dive further into HDBSCAN, I would read the [documentat
 Mehta, V., Bawa, S. & Singh, J. WEClustering: word embeddings based text clustering technique for large datasets. Complex Intell. Syst. 7, 3211–3224 (2021). https://doi.org/10.1007/s40747-021-00512-9
 
 Hynek Hruska (2022). Apify: Indeed Scraper [Software]. Available from https://apify.com/hynekhruska/indeed-scraper#indeed-scraper
+
+Credits: 
+
+I would like to personally thank Pranjal Pathak for his help with multiple aspects of this project such as the data preprocessing and redefining the scope. 
