@@ -29,12 +29,12 @@ Inability to gain access to an API or access to webscrape. Websites that jost jo
 Used a third party tool that performed the webscraping and webcrwaling. As a result of doing this, you will have to find a way to extract information for your own database. This project only works given you have the database as a CSV file already. 
 
     2. Limitiation
-    
-    Formulating a supervised learning approach. I had attempted to create an ontology that would allow me to assign labels to specific job roles (target variable).         However, there was clear personal bias with this approach. On top of this the only way to train the model would have been to inidividually label whether a posting     belonged to the right title, a tedious task when working with thousands of different postings.  
+
+Formulating a supervised learning approach. I had attempted to create an ontology that would allow me to assign labels to specific job roles (target variable).         However, there was clear personal bias with this approach. On top of this the only way to train the model would have been to inidividually label whether a posting     belonged to the right title, a tedious task when working with thousands of different postings.  
     
     Solution: 
     
-    I decided to find "similiar" job postings to the ones I had interest in instead. 
+I decided to find "similiar" job postings to the ones I had interest in instead. 
 ## Steps:
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
     1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
