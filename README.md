@@ -10,7 +10,6 @@
 ## Goal:
 
 I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool
-# Important Note:
 
 
 ## Redfining Scope:
