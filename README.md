@@ -4,11 +4,8 @@
 1. [Project RoadMap](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
 2. [Notebook](https://github.com/kylenewm/Job-Search-Optimization/blob/main/JobSearchOptimizerEDA.ipynb) with all EDA and basic modeling
 3. [Visuals](Visuals.ipynb) that did not load on GitHub
-3. preproccess.py (in progress)
-4. clustering.py (in progress)
-5. supervised.py (in progress)
-6. main.py (in progress)
-7. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
+4. User interface with shiny for python (in progress) 
+5. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
 
 ## Goal:
 
