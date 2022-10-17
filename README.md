@@ -12,10 +12,17 @@
 
 ## Goal:
 
-I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool. 
-## Important Note:
+I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool
+# Important Note:
 
 I only had a 14 day subscription to databricks and placed out of the AWS free tier within a week. As a result, I had to redefine the scope of the project that was shown on the project road map. 
+
+## Redfining Scope:
+The original goal was to create production ready code from webscraping Data to having a web app that user could find a list of relevant roles based on their interests. The scope of the project was redefined due to the following limitations.
+    Limitiation 1:
+    Inability to gain access to an API or access to webscrape. Websites that jost job postings such as Indeed and LinkedIn have made it       difficult to extract information from their website. Also, most APIs are geared towards companies wanting to post job roles and not       for potential applicants wanting to gain access to the job postings.
+Solution 1:
+Used a third party tool that performed the webscraping and webcrwaling. As a result of doing this, you will have to find a way to extract information for your own database. This project only works given you have the database as a CSV file already. 
 ## Steps:
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
     1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
