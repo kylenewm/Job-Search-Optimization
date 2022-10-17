@@ -20,13 +20,21 @@ I only had a 14 day subscription to databricks and placed out of the AWS free ti
 ## Redfining Scope:
 The original goal was to create production ready code from webscraping Data to having a web app that user could find a list of relevant roles based on their interests. The scope of the project was redefined due to the following limitations.
 
-    Limitiation 1:
+    1. Limitiation:
     
 Inability to gain access to an API or access to webscrape. Websites that jost job postings such as Indeed and LinkedIn have made it difficult to extract information from their website. Also, most APIs are geared towards companies wanting to post job roles and not for potential applicants wanting to gain access to the job postings.
     
-    Solution 1:
+    Solution
     
 Used a third party tool that performed the webscraping and webcrwaling. As a result of doing this, you will have to find a way to extract information for your own database. This project only works given you have the database as a CSV file already. 
+
+    2. Limitiation
+    
+    Formulating a supervised learning approach. I had attempted to create an ontology that would allow me to assign labels to specific job roles (target variable).         However, there was clear personal bias with this approach. On top of this the only way to train the model would have been to inidividually label whether a posting     belonged to the right title, a tedious task when working with thousands of different postings.  
+    
+    Solution: 
+    
+    I decided to find "similiar" job postings to the ones I had interest in instead. 
 ## Steps:
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
     1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
@@ -51,6 +59,3 @@ Mehta, V., Bawa, S. & Singh, J. WEClustering: word embeddings based text cluster
 
 Hynek Hruska (2022). Apify: Indeed Scraper [Software]. Available from https://apify.com/hynekhruska/indeed-scraper#indeed-scraper
 
-## Credits: 
-
-I would like to personally thank Pranjal Pathak for his help with multiple aspects of this project such as the data preprocessing and redefining the scope. 
