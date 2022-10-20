@@ -11,7 +11,19 @@
 
 I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool
 
+## Steps:
+1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
+    a. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
+    b. It may also help to use a secure VPN to deal with 403 errors. 
+  
+2. Download files into a spreadsheet and remove large gaps in data (ex. No data between row 27 and row 93)
 
+3. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Datbricks using the UI 
+    1. When uploading files make sure to check the boxes enabling multi-line and first row headers
+
+4. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
+5. Download into notebook and perform EDA, clustering.
+6. Next steps: Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 ## Redfining Scope:
 The original goal was to create production ready code from webscraping Data to having a web app that user could find a list of relevant roles based on their interests. The scope of the project was redefined due to the following limitations.
 
@@ -38,19 +50,7 @@ I only had a 14 day subscription to databricks and placed out of the AWS free ti
 #### Solution 3:
 Keeping data engineering and ML engineering aspects of the project to a minimum. 
 
-## Steps:
-1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
-    1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
-    2. It may also help to use a secure VPN to deal with 403 errors. 
-  
-2. Download files into a spreadsheet and remove large gaps in data (ex. No data between row 27 and row 93)
 
-3. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Datbricks using the UI 
-    1. When uploading files make sure to check the boxes enabling multi-line and first row headers
-
-4. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
-5. Download into notebook and perform EDA, clustering.
-6. Next steps: Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 
 Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
 
