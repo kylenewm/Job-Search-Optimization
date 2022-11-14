@@ -27,14 +27,14 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 ### Preprocessing, EDA, and Modeling
 1. Follow along with ipynb file for preprocessing, EDA, and modeling
 
-### Next Steps
+### Next Step:
 Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 
-Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
-
-My personal favorite NLP tutorial: https://www.analyticsvidhya.com/blog/2022/01/roadmap-to-master-nlp-in-2022/
-A great website for finding pretrained models etc. They have awesome tutorials and solid documentation. https://huggingface.co/ 
-If you are interested to dive further into HDBSCAN, I would read the [documentation] (https://hdbscan.readthedocs.io/en/latest/index.html)
+### Resources to get started
+      - Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
+      - My personal favorite NLP tutorial: https://www.analyticsvidhya.com/blog/2022/01/roadmap-to-master-nlp-in-2022/
+      - A great website for finding pretrained models etc. They have awesome tutorials and solid documentation. https://huggingface.co/ 
+      - If you are interested to dive further into HDBSCAN, I would read the [documentation] (https://hdbscan.readthedocs.io/en/latest/index.html)
 ## Citations
 Mehta, V., Bawa, S. & Singh, J. WEClustering: word embeddings based text clustering technique for large datasets. Complex Intell. Syst. 7, 3211–3224 (2021). https://doi.org/10.1007/s40747-021-00512-9
 
