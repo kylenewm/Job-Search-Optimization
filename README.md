@@ -21,7 +21,7 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 2. Download scraped data into a csv file and eliminate large row gaps or other critical errors that prevent dataset from uploading properly into DataBricks
 ### Setting up environment, uploading, and altering dataset
 1. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Databricks using the UI 
-       - When uploading files make sure to check the boxes enabling multi-line and first row headers
+      - When uploading files make sure to check the boxes enabling multi-line and first row headers
 2. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
 
 ### Preprocessing, EDA, and Modeling
