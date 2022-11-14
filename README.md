@@ -7,19 +7,21 @@
 4. User interface with shiny for python (in progress) 
 5. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
 
+## Problem: 
+There is a lack of consistency for job postings in roles such as Data Analyst, Data Scientist, Data Engineer, etc.
 ## Goal:
 
-I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool that otherr people can utilize during their job search
+I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool that otherr people can utilize during their job search. 
 
 ## Steps:
 ### Webscraping
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
-    1. Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
-    2. It may also help to use a secure VPN to deal with 403 errors. 
-2. Download into a csv file and eliminate large row gaps or other critical errors that prevent dataset from uploading properly
+      - Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
+      - It may also help to use a secure VPN to deal with 403 errors. 
+2. Download scraped data into a csv file and eliminate large row gaps or other critical errors that prevent dataset from uploading properly into DataBricks
 ### Setting up environment, uploading, and altering dataset
-1. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Datbricks using the UI 
-    1. When uploading files make sure to check the boxes enabling multi-line and first row headers
+1. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Databricks using the UI 
+       - When uploading files make sure to check the boxes enabling multi-line and first row headers
 2. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
 
 ### Preprocessing, EDA, and Modeling
