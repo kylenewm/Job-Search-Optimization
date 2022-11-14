@@ -28,34 +28,6 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 ### Next Steps
 Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 
-## Redfining Scope:
-The original goal was to create production ready code from webscraping Data to having a web app that user could find a list of relevant roles based on their interests. The scope of the project was redefined due to the following limitations.
-
-#### Limitiation 1 :
-    
-Inability to gain access to an API or access to webscrape. Websites that jost job postings such as Indeed and LinkedIn have made it difficult to extract information from their website. Also, most APIs are geared towards companies wanting to post job roles and not for potential applicants wanting to gain access to the job postings.
-    
-#### Solution 1 :
-    
-Used a third party tool that performed the webscraping and webcrwaling. As a result of doing this, you will have to find a way to extract information for your own database. This project only works given you have the database as a CSV file already. 
-
-#### Limitiation 2:
-
-Formulating a supervised learning approach. I had attempted to create an ontology that would allow me to assign labels to specific job roles (target variable).         However, there was clear personal bias with this approach. On top of this the only way to train the model would have been to inidividually label whether a posting     belonged to the right title, a tedious task when working with thousands of different postings.  
-    
-#### Solution 2:
-    
-I decided to find "similiar" job postings to the ones I had interest in instead. 
-
-#### Limitiation 3:
-
-I only had a 14 day subscription to databricks and placed out of the AWS free tier within a week.
-
-#### Solution 3:
-Keeping data engineering and ML engineering aspects of the project to a minimum. 
-
-
-
 Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
 
 My personal favorite NLP tutorial: https://www.analyticsvidhya.com/blog/2022/01/roadmap-to-master-nlp-in-2022/
