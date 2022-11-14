@@ -2,7 +2,7 @@
 ## Files:
 
 1. [Project RoadMap](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Project_roadmap.png)  
-2. [Notebook](https://github.com/kylenewm/Job-Search-Optimization/blob/main/JobSearchOptimizerEDA.ipynb) with all EDA and basic modeling
+2. [Notebook](https://github.com/kylenewm/Job-Search-Optimization/blob/main/JobSearchOptimizerEDA) with all EDA and basic modeling
 3. [Visuals](Visuals.ipynb) that did not load on GitHub
 4. User interface with shiny for python (in progress) 
 5. [SQL commands](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql)
