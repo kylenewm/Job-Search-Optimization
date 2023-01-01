@@ -31,7 +31,7 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 4. Utilize topic from bert topic model to create labels for supervised model
 ![image](https://user-images.githubusercontent.com/100371414/210187194-cd584efc-6ee7-4863-9e74-b966dbfc0f59.png)
 
-### Next Step:
+### Next Steps:
 
 1. Create a supevised model to classify new job postings
 2. Create interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for python. 
