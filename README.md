@@ -28,11 +28,13 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 1. Preprocess data with NLTK and regex
 2. Find similary job postings using TF-IDF vectorizing and cosine similarity
 3. Use sentence transformers, HDBSCAN, UMAP, and BERT for topic modeling
-4. Utilize topic from bert topic model to create labels for supervised algorithm
+4. Utilize topic from bert topic model to create labels for supervised model
 ![image](https://user-images.githubusercontent.com/100371414/210187194-cd584efc-6ee7-4863-9e74-b966dbfc0f59.png)
 
 ### Next Step:
-Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
+
+1. Create a supevised model to classify new job postings
+2. Create interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for python. 
 ### Resources to get started
 Here is a link to a great [paper for text-based clustering techniques with large datasets](https://link.springer.com/article/10.1007/s40747-021-00512-9)
 
