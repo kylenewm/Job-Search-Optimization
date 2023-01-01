@@ -14,6 +14,7 @@ There is a lack of consistency for job postings in roles such as Data Analyst, D
 I wanted to gain exposure to all areas within data science (data engineering, data scientist, ML engineer, etc.) so I created a project that would allow me to do while also constructing a useful tool that otherr people can utilize during their job search. 
 
 ## Steps:
+
 ### Webscraping
 1. Scrape data from Indeed using [Apify's](https://apify.com/hynekhruska/indeed-scraper) built in webscraper for Indeed
       - Make sure to set the job type to the jobs you are interested in (ex. Data Scientist) and set that as the starting point for the URL in apify
@@ -23,8 +24,13 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 1. Connect to cluster through either (AWS, Google Cloud, or MicrosoftAzure) and upload files into Databricks using the UI 
       - When uploading files make sure to check the boxes enabling multi-line and first row headers
 2. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
-### Preprocessing, EDA, and Modeling
-1. Follow along with ipynb file for preprocessing, EDA, and modeling
+### Preprocessing, EDA, and Topic Modeling
+1. Preprocess data with NLTK and regex
+2. Find similary job postings using TF-IDF vectorizing and cosine similarity
+3. Use sentence transformers, HDBSCAN, UMAP, and BERT for topic modeling
+4. Utilize topic from bert topic model to create labels for supervised algorithm
+![image](https://user-images.githubusercontent.com/100371414/210187194-cd584efc-6ee7-4863-9e74-b966dbfc0f59.png)
+
 ### Next Step:
 Create a user interface that allows an individual to select one of the few thousands job postings and then display the results using Shiny for pyhton. 
 ### Resources to get started
