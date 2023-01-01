@@ -26,7 +26,7 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 2. Run commands in [SQL file](https://github.com/kylenewm/Job-Search-Optimization/blob/main/Joining_Tables.sql) in Databricks
 ### Preprocessing, EDA, and Topic Modeling
 1. Preprocess data with NLTK and regex
-2. Find similary job postings using TF-IDF vectorizing and cosine similarity
+2. Find similary job postings using TF-IDF vectorizer and cosine similarity
 3. Extract most frequent skills from corpus 
 ![image](https://user-images.githubusercontent.com/100371414/210187369-73d78d31-450a-4fa3-9a56-32913b4d637a.png)
 4. Use sentence transformers, HDBSCAN, UMAP, and BERT for topic modeling
