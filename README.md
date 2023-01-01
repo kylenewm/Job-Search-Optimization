@@ -30,7 +30,7 @@ I wanted to gain exposure to all areas within data science (data engineering, da
 3. Extract most frequent skills from corpus 
 ![image](https://user-images.githubusercontent.com/100371414/210187369-73d78d31-450a-4fa3-9a56-32913b4d637a.png)
 4. Use sentence transformers, HDBSCAN, UMAP, and BERT for topic modeling
-5. Utilize topic from bert topic model to create labels for supervised model
+5. Utilize topics from bert topic model to create labels for supervised model
 ![image](https://user-images.githubusercontent.com/100371414/210187194-cd584efc-6ee7-4863-9e74-b966dbfc0f59.png)
 
 ### Next Steps:
